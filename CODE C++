@@ -1,0 +1,35 @@
+
+#include<iostream>
+using namespace std;
+
+
+int main() {
+
+	string shopping[5];
+
+	shopping[0] = "bread";
+	shopping[1] = "beef";
+	shopping[2] = "juice";
+	shopping[3] = "candy";
+	shopping[4] = " ";
+
+	shopping[4] = "malk";
+	
+	for (int i = 0; i < 5; i++)
+		cout << shopping[i] << " ";
+	cout << endl;
+
+	shopping[0] = "bodadoes";
+
+	cout << shopping[2];
+	
+	for (int i = 0; i < 5; i++)
+		if (shopping[i] == "strawberries")
+			cout << "found strawberrwise" << endl;
+	cout << endl;
+
+	for (int i = 0; i < 5; i++)
+		cout << shopping[i] << " ";
+	cout << endl;
+
+}
