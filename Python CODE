@@ -1,0 +1,11 @@
+shopping = ["bread", "pizza", "juice", "candy"]
+shopping.append("milk")
+shopping.remove("bread")
+shopping.insert(2, "oranges")
+print(len(shopping))
+if "apples" in shopping:
+    print("True")
+else:
+    print("False")
+
+print(shopping)
